@@ -94,6 +94,5 @@ instance_amount = instances
     puts JSON.generate(aws_template)
     puts JSON.generate(instance_security_group)
     puts JSON.generate(create_output)
-    puts JSON.generate(create_resources_props)
-    puts JSON.generate(create_resources_props)
+    puts JSON.generate(create_resources_props) * instance_amount
 end
