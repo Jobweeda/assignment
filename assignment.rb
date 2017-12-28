@@ -1,6 +1,6 @@
 
 require 'json'
-#ec2 instance 2X vanaf properties..
+
 
 instances                  = 1
 
